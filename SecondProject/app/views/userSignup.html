@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User management system</title>
+</head>
+<body>
+<h3>USER SIGNUP</h3>
+<div id="myname">
+      
+        <form method = "post"  action='/users/userSignup'>
+          <div class="container">
+               <label><b>FirstName</b></label>
+               <br> 
+               <input type='text', name='firstName', value='', placeholder='firstName', required="" />
+               <br>
+               <br>
+               <label><b>LastName</b></label>
+               <br> 
+               <input type='text', name='lastName', value='', placeholder='lastName', required="" />
+               <br>
+               <br>
+               <label><b>Mobile</b></label>
+               <br> 
+               <input type='number', name='mobile', value='', placeholder='mobile number', required='' />
+               <br>
+               <br>
+               <label><b>EmailID</b></label>
+               <br> 
+               <input type='email', name='email', value='', placeholder='email', required=''>
+               <br>
+               <br>
+               <label><b>Password</b></label>
+               <br> 
+               <input type='password', name='password', value='', placeholder='Password', required=''>
+               <br>
+               <br>
+               <button type="submit">SIGN UP</button>
+          </div>
+        </form>
+</div>
+</body>
+</html>
